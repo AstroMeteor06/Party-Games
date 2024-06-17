@@ -1,0 +1,32 @@
+# https://www.online-python.com/	<- interprete online
+
+import random
+luoghi = ["università", "albergo", "scuola", "aeroporto", "porto", "stazione dei treni", "panificio", "supermercato", "banca", "ufficio postale", "giardino", "bosco", "mare", "spiaggia", "nave", "aereo", "astronave", "treno", "montagna", "deserto", "centro commerciale", "stadio", "museo", "palestra", "ristorante", "bar", "piscina", "strada", "ascensore", "fattoria", "campagna", "fiume", "lago", "ufficio", "prigione", "piazza"]
+
+print("\n___SPYFALL___\n")
+n = int(input("number of players: "))
+k = int(input("number of spies "))
+p = int(input("player id: "))
+s = int(input("insert match seed: "))
+
+S = pow((n+k), s, 2**16)
+random.seed(S)
+
+spy = []
+players = []
+for i in range(1, n+1):
+    players.append(i)
+for i in range(0, k):
+    g = random.randint(0, len(players)-1)
+    spy.append(players.pop(g))
+place = random.choice(luoghi)
+
+a = input("press enter to give result")
+
+if p in spy:
+    print("you're the spy!")
+else:
+    print("the place is:", end=" ")
+    print(place)
+
+a = input("press enter to exit")
