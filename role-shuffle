@@ -1,0 +1,52 @@
+# 
+
+import random
+
+print("\n___SECRET HITLER___\n")
+print("> selezione ruoli di gioco\n> usare solo a inizio partita")
+n = int(input("numero di giocatori: "))
+p = int(input("id giocatore: "))
+s = int(input("seed partita: "))
+
+S = pow(n, s, 2**16)
+random.seed(S)
+
+if n<=6:
+    f = 1
+elif n<=8:
+    f = 2
+else:
+    f = 3
+
+fascists = []
+players = []
+hitler = []
+for i in range(1, n+1):
+    players.append(i)
+for i in range(0, f):
+    g = random.randint(0, len(players))
+    fascists.append(players.pop(g))
+g = random.randint(0, len(players))
+hitler.append(players.pop(g))
+
+a = input("preni ENTER per ottenere il ruolo")
+
+if p in hitler:
+    print("sei HITLER!")
+    if n <= 6:
+        print("gli altri fascisti sono:")
+        for g in fascists:
+            print(g, end = " ")
+            print()
+if p in fascists:
+    print("sei un FASCISTA!")
+    print("Hitler e'", hitler[0])
+    print("gli altri fascisti sono :")
+    for g in fascists:
+        if g != p:
+            print(g, end = " ")
+            print()
+if p in players:
+    print("sei un LIBERALE")
+
+a = input("preni ENTER per chiudere")
