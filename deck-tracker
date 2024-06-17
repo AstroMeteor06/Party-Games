@@ -1,0 +1,73 @@
+#
+
+import random
+
+print("\n___SECRET HITLER___\n")
+print("> emulatore mazzo\n> usare ogni volta che si pesca una legge")
+s = int(input("seed partita: "))
+history = input("inserire storico pescate: ")
+
+S = pow(17, s, 2**16)
+random.seed(S)
+
+F = 11
+L = 6
+
+def shuffle(deck = []):
+    shuffled = []
+    while len(deck) > 0:
+        shuffled.append(deck.pop(random.randint(0, len(deck)-1)))
+    return shuffled
+
+deck = []
+for i in range(0, L):
+    deck.append("L")
+for i in range(0, F):
+        deck.append("F")
+deck = shuffle(deck)
+
+pile = []
+l = 0
+f = 0
+
+for a in history:
+    if a == "s":
+        for x in deck:
+            pile.append(x)
+        for i in range(0, l):
+            pile.remove("L")
+        for i in range(0, f):
+            pile.remove("F")
+        deck = shuffle(pile)
+        pile = []
+        l = 0
+        f = 0
+    elif a == "f":
+        f = f + 1
+    elif a == "l":
+        l = l + 1
+    else:
+        c = int(a)
+        for i in range(0, c):
+            pile.append(deck.pop(0))
+
+print("ora ci sono", len(deck), "carte nel mazzo")
+k = int(input("inserire numero di carte da pescare: "))
+
+if k <= len(deck):
+    for i in range(0, k):
+        print(deck.pop(0))
+    drawn = input("quale legge e' stata approvata? (l/f) ")
+    if drawn == "l" or drawn == "f":
+        history = history + str(k) + drawn
+    else:
+        print("invalido")
+    if len(deck) < 3:
+        print("restano meno di 3 carte: il mazzo viene mescolato")
+        history = history + "s"
+    print("storico mazzo aggiornato: ")
+    print(history)
+else:
+    print("non ci sono abbastanza carte")
+
+a = input("preni ENTER per chiudere")
