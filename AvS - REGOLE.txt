@@ -1,0 +1,158 @@
+ARBA VS SEDILIS: THE TAVOL GAME
+Gioco da tavolo per 2 guiocatori
+creato da Astro
+
+__SCOPO DEL GIUOCO__
+Lo scopo del giuoco è imporsi padroni incontrastati del Friuli conquistando il paese nemico: Arba o Sedilis.
+
+
+__LUOGHI__
+I vari luoghi sono collegati la linee nere che mostrano quali territori sono adiacenti.
+> TERRITORI ORDINARI
+Sono rappresentati da cerchi neri.
+> BASI
+Sono Arba e Sedilis. Conquistare la base nemica fa vincere la partita. Esse e i territori esattamente adiacenti a loro sono protette da attacchi a distanza.
+> AVAMPOSTI
+RIVOLTO (quadrato blu) e RONCHI (quadrato rosso) sono detti AVAMPOSTI, e permettono, se occupati, di rischierare truppe in luogo. Nonostante la colorazione, possono essere occupate e usate ugualmente da entrambe le fazioni.
+> PALMANOVA
+Al centro del Friuli si trova Palmanova, sede di un ospedale che, se occupato, permette di aumentare le truppe massime a disposizione.
+> MARANO
+Al sud del Friuli si trova MARANO, dove si possono comprare missili balistici a corto raggio.
+> UDINE
+Al centro del Friuli si trova UDINE, divisa in 5 settori. Ogni settore conta come territorio  bonus; possederli tutti comporta un bonus immediato di 10 danari (il primo turno in cui si possiedono tutti e 5, i 10 danari bonus sono ottenibili subito, i turni successivi tale bonus sarà riscosso a inizio turno come normale). I territori che si toccano sono considerati adiacenti. Conta come un territorio solo per gli attacchi a distanza.
+> RIFUGIO DEGLI ALPINI
+A nord ci sono gli alpini: se disturbati, occuperanno Udine e lanceranno micidiali attacchi aerei. 
+> PONTI
+I ponti permettono di attraversare i due fiumi (Tagliamento e Torre). Non sono un territorio, ma solo una connessione fra due territori. Possono essere distrutti a gratis a fine turno se delle truppe ordinarie si trovano a una delle estremità del ponte, oppure possono essere distrutte da attacchi aerei. Possono essere ricostruiti a un certo prezzo, sempre a fine turno e se delle truppe ordinarie si trovano in uno dei due territori connessi dal ponte. 
+> LIGNANO E GRADO
+Sono due stabilimenti balneari; contano come territori bonus.
+
+
+__INIZIO DEL GIOCO__
+1 - Si posizionano il numero massimo di truppe ordinarie alle basi.
+2 - Si stabilisce il giuocatore che inizia in base alla vicinanza del centro del tabellone a Arba e Sedilis (si consideri il marcatore di google maps); il più vicino al corrispettivo luogo inizia. Se la partita non ha luogo fisico, o non si conosce la propria posizione, o non si è sul pianeta Terra, i giuocatori lanciano un dado, chi fa il punteggio più alto inizia.
+3 - Finché non avviene un combattimento, o truppe nemiche si trovano in territori adiacenti, le truppe ordinarie possono muoversi di 2 territori ciascuna al turno; non si prendono rinforzi, acquisti o danari.
+
+
+__SVOLGIMENTO DEL TURNO__
+1 - Posizionare nuove truppe ordinarie, fino al massimo consentito, nelle BASI o negli AVAMPOSTI posseduti
+2 - Aggiungere danaro, in base ai territori posseduti
+3 - Comprare trattori (da posizionare sulle BASI o AVAMPOSTI)
+4 - Lanciare, se si desidera, attacchi a distanza (con aerei, cannoni, missili, o truppe paracadutiste) ove possibile
+5 - Eseguire attacchi via terra, se si desidera, a territori nemici adiacenti
+6 - Spostare truppe in territori adiacenti liberi da truppe nemiche, o trattori di 2 territori.
+7 - Acquistare, se si desidera, barricate (da posizionare dove si possiedono già delle truppe ordinarie), cannoni (da posizionare sulle BASI o AVAMPOSTI), missili (se si possiede Marano, e solo uno al turno), ricostruire o distruggere ponti.
+
+
+__TERRITORI, DANARO__
+A ogni turno si guadagna danaro in funzione dei territori posseduti. Il conteggio si esegue in questo modo:
+1 - si guadagnano 10 danari per ogni territorio bonus
+2 - si guadagnano 10 danari ogni 2 dei territori rimanenti sotto il proprio controllo (arrotondando per difetto)
+Un territorio è posseduto se sono presenti truppe ordinarie sul territorio, oppure se si verificano tutte le seguenti condizioni:
+1 - truppe ordinarie sono precedentemente passate in questo territorio
+2 - truppe ordinarie nemiche NON sono passate sul territorio dopo le ultime tue
+3 - il territorio è adiacente a un territorio posseduto dalla tue truppe
+4 - il territorio non è adiacente a un territorio posseduto dal truppe ordinarie del nemico.
+Se la condizione 4 non è valida, il territorio si definisce conteso.
+Un territorio conteso può essere comunque posseduto (e considerato nel conteggio per il danaro), a patto che almeno una truppa ordinaria si muova sul posto alla fine del turno.
+Se non ci sono truppe che possono farlo, non è possibile rivendicare il territorio conteso.
+Se alla fine del turno non è più possibile muoversi sul territorio conteso (perché tutte le truppe che potevano farlo sono state eliminate), si pagherà una multa, perdendo una quantità di danaro.
+Si deve muovere almeno una truppa, a fine turno, sul territorio conteso, anche se non lo si desidera.
+Tutti i territori speciali (escluse le Basi) hanno bisogno di almeno una truppa ordinaria per poter usufruire dei bonus che offrono.
+
+
+__COMBATTIMENTO__
+Esistono due tipi di attacchi: ravvicinati e a distanza.
+> ATTACCHI A DISTANZA
+Gli attacchi a distanza sono i primi attacchi del turno. Sono: lancio di paracadutisti, colpi di cannone e missili di Marano. Essi bypassano bonus e malus, e non comportano tiri del dado. Possono superare i fiumi.
+> ATTACCHI RAVVICINATI
+Avvengono fra due territori adiacenti; se separati da un fiume, è necessario che il ponte relativo sia funzionante. L'attaccante e il difendente tirano entrambi un dado: chi ha il punteggio (considerando bonus o malus) più basso perde una pedina sul territorio. In caso di pareggio, perde l'attaccante. Si perdono le pedine in ordine:
+alpini > paracadutisti > trattori > truppe ordinarie
+Nel caso si perdano tutte le pedine coinvolte in un attacco, o si decida di interromperlo, finisce il turno di attacco. Se invece l'attaccante vince e rimuove tutte le pedine dal territorio nemico, può eseguire altri attacchi nel turno.
+> ATTACCO DEL TRATTORE
+I trattori, oltre al normale attacco ravvicinato, possono eseguire attacchi a distanza di due territori, eventualmente superando fiumi, ma hanno tutte le caratteristiche degli attacchi ravvicinati. Inoltre, come gli attacchi aerei, non possono attaccare a distanza le basi e i territori a esse adiacenti.
+
+
+__EQUIPAGGIAMENTI E SOLDATI__
+> TRUPPA ORDINARIA
+Può essere schierata nelle basi o avamposti fino al valore massimo. Si muove di un territorio al turno.
+> PARACADUTISTI
+Può essere comprato a inizio turno, essendo valido come attacco a distanza. Ogni aereo schiera 4 paracadutisti in territori a piacere (anche diversi); come gli altri attacchi aerei non può essere schierato sulle basi o nei territori adiacenti. Al primo turno, essi hanno un malus -2 in attacco. I paracadutisti, fin dal momento dell'atterraggio, si comportano come truppe ordinarie, con attacchi ravvicinati e movimento di un territorio al turno.
+> TRATTORI
+Può essere comprato e schierato a inizio turno su basi e avamposti. Si muove di due territori ogni turno. Possiede un attacco speciale descritto più avanti.
+> MISSILI
+Possono essere comprati a Marano a fine turno, e lanciati a inizio turno come attacco a distanza. Se ne possono possedere fino a 3 alla volta per coalizione. Se ne possono comprare solo uno al turno, ma possono essere lanciati quando e quanti se ne vuole. Vengono lanciati dalle basi o dagli avamposti, e possono colpire:
+- se lanciati dalle basi, tutta la metà mappa vicina alla base del lancio, inclusa la linea centrale (Udine, Palmanova e Marano) ed escluso il rifugio degli alpini.
+- se lanciati da un avamposto, possono colpire tutto i territorio all'interno dei due fiumi, e tutta la metà campo dal lato della base, e il rifugio degli Alpini.
+Ogni missile può rimuovere, a scelta del lanciatore, tre truppe ordinari, paracadutiste o alpine, OPPURE un trattore e una truppa fra quelle di prima, OPPURE due trattori, OPPURE un ponte.
+> CANNNONE
+Il cannone può comprato a fine turno e posizionato su basi o avamposti. Può fare attacchi a distanza, a esattamente 3 territori di distanza. Può colpire un ponte solo se potrebbe colpire uno dei due territori collegati da tale ponte.
+Il primo attacco del turno è gratis, mentre gli attacchi successivi hanno un prezzo che aumenta progressivamente. Anche se si hanno più cannoni, il prezzo è valido per tutti i cannoni. (Se sparo un colpo con un cannone e un colpo con un altro, il primo è gratis e il secondo costa di più, anche se è il primo colpo sparato dal secondo cannone).
+Le palle di cannone possono distruggere un'unità a scelta del lanciatore (eccetto altri cannoni).
+Il cannone si può muovere a fine turno in un territorio adiacente. Per muoversi, è necessario che una truppa ordinaria lo accompagni. Inoltre, il cannone può fare fuoco se si trova nello stesso territorio dove si trova almeno una truppa ordinaria.
+> AEREO ALPINO
+Può eseguire, guidato dal giuocatore che lo possiede, due attacchi aerei al turno, validi come attacco a distanza, in qualsiasi punto della mappa. Ogni attacco aereo vale come una palla di cannone. L'attacco può essere eseguito solo se una truppa ordinaria occupa il rifugio alpino.
+> BARRICATA
+Le barricate possono essere comprate e posizionate a fine turno su un qualsiasi territorio dove si trovano truppe ordinarie. Per essere attiva, deve essere mantenuta, e quindi vanno spesi dei danari ogni fine turno. Una barricata resta in posizione finché non ci sono più truppe ordinarie nel territorio dov'è posizionata, o si cessa di spendere i danari per mantenerla. Si può posizionarne solo una per territorio. Avere una barricata consente un bonus al dado in difesa da attacchi ravvicinati nemici, da +1 a +3, proporzionalmente alla spesa.
+
+
+__ALPINI__
+Tre alpini, fin dall'inizio della partita, al rifugio degli alpini. Essi valgono come nemici e, sebbene non attacchino e non si muovano, si difenderanno da attacchi nemici con il dado.
+Quando il rifugio viene conquistato da un giuocatore, esso fa iniziare il Raduno degli Alpini a Udine: cinque alpini vengono posizionati a Udine, ognuno in un settore diverso, e sono sotto il controllo di che possiede il rifugio.
+Essi non possono attaccare, ma si opporranno in caso di attacco nemico (sono inoltre i primi a essere rimossi in caso di attacco nemico).
+Le truppe della coalizione che controlla gli alpini potrà muoversi sui territori occupati dagli alpini senza essere ostacolata, ma i settori occupati dagli alpini con vengono contati come territori posseduti e non generano danaro.
+Inoltre, chi controlla il rifugio alpino può lanciare ogni turno un attacco con l'aereo degli alpini; tale attacco è descritto nella sezione dedicata.
+Appena non ci sono più truppe ordinarie nel rifugio, o tutti gli alpini solo stati eliminati, il giuocatore perde l'uso dell'aereo alpino. Ciò avviene anche se il rifugio viene conquistato.
+In caso di conquista nemica del rifugio, gli alpini presenti vengono rimossi, e cinque nuovi alpini, fedeli al nuovo possessore del rifugio, occupano i cinque settori di Udine; l'aereo passa al nuovo possessore del rifugio.
+Il "reset" degli alpini avviene solo se a conquistare il rifugio non è l'ultimo giuocatore ad averlo posseduto; un giuocatore non può resettare gli alpini uscendo e rientrando dal territorio del rifugio.
+
+
+__FAQ__
+> Paracadutisti o trattori valgono per usufruire dei bonus dei luoghi?
+No: valgono solo truppe ordinarie. Ti servono truppe ordinarie per:
+- avere i danari in più da Lignano, Grado e Udine
+- avere più truppe grazie a Palmanova
+- comprare missili a Marano
+- rischierare truppe negli avamposti
+- lanciare attacchi aerei dal Rifugio alpino
+
+> Posso muovere una pedina e poi attaccare da lì?
+No. Prima di attacca, poi si muove. Una pedina che ha mosso non può più fare nulla fino alla fine del turno. Sarebbe meglio fare prima tutti gli attacchi e poi muovere, anche se spesso è comodo muovere pedine durante la fase di attacco: basta ricordarsi di non attaccare con esse.
+
+> Posso passare su territori nemici, se non li attacco?
+No: non puoi muovere nessuna pedina su territori che hanno qualsiasi pedina nemica, anche truppe non ordinarie. L'unica eccezione sono i paracadutisti, che al primo turno possono atterrare ovunque. Gli alpini, se alleati, non sono truppe nemiche, perciò si può passare nei territori dove si trovano.
+
+> Se il cannone non è alla portata giusta lo posso spostare?
+No: puoi eseguire attacchi a inizio turno solo sui territori attualmente alla distanza giusta. A fine turno puoi spostare il cannone, come descritto nella sezione dedicata, ma dovrai aspettare il prossimo turno per usarlo.
+
+> Posso lanciare più di un missile?
+Si, anche da luoghi diversi. L'importante è che ci sia almeno una truppa ordinaria nella base o avamposto da cui lo lanci.
+
+> Posso riparare un ponte e farci passare delle truppe?
+No, la riparazione dei ponti è l'ultima cosa che si fa in un turno. Perciò non puoi usarlo subito per il transito di truppe perché è già finito il momento degli spostamenti. Potrai passare sul ponte il turno successivo. (Fai attenzione: il nemico può usare un ponte riparato da te a tuo svantaggio.)
+
+
+__PARAMETRI STANDARD__
+Truppe massime: 10
+Danari iniziali: 100
+
+> PREZZI (Danari)
+- Barricata: 10, 20, 30
+- Trattore: 20
+- Paracadutisti: 30
+- Ricostruzione ponte: 30
+- Missile: 40
+- Cannone: 50
+- Colpi di cannone: 0, 10, 20, 30 ecc.
+
+Bonus Palmanova: +2 truppe
+Paracadutisti: 4 ogni aereo
+Multa territorio conteso: 10
+
+
+__ Un po'di  L O R E __
+- I trattori lanciano missili dal tubo di scarico. Quando i trattori perdono il lancio del dado, il missile ha un malfunzionamento ed esplode.
+- I missili maranesi sono fabbricati da Astro e sono sul limite della legalità, secondo la convenzione di Ginevra.
+- Udine è la capitale del Friuli Venezia Giulia.
+- I ponti distrutti non finiscono nel fiume, ma in una dimensione parallela. Il prezzo della ricostruzione è quello del viaggio interdimensionale.
+- Sedilis esiste davvero. Scioccante, lo so.
