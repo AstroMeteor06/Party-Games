@@ -6,6 +6,7 @@ print("\n___SECRET HITLER___\n")
 print("> emulatore mazzo\n> usare ogni volta che si pesca una legge")
 s = int(input("seed partita: "))
 history = input("inserire storico pescate: ")
+history.strip()
 
 S = pow(17, s, 2**16)
 random.seed(S)
