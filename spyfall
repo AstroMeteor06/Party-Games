@@ -1,7 +1,7 @@
 # https://www.online-python.com/	<- interprete online
 
 import random
-luoghi = ["università", "albergo", "scuola", "aeroporto", "porto", "stazione dei treni", "panificio", "supermercato", "banca", "ufficio postale", "giardino", "bosco", "mare", "spiaggia", "nave", "aereo", "astronave", "treno", "montagna", "deserto", "centro commerciale", "stadio", "museo", "palestra", "ristorante", "bar", "piscina", "strada", "ascensore", "fattoria", "campagna", "fiume", "lago", "ufficio", "prigione", "piazza"]
+luoghi = ["università", "albergo", "scuola", "aeroporto", "porto", "stazione dei treni", "panificio", "supermercato", "banca", "ufficio postale", "giardino", "bosco", "mare", "spiaggia", "nave", "aereo", "astronave", "treno", "montagna", "deserto", "centro commerciale", "stadio", "museo", "palestra", "ristorante", "bar", "piscina", "strada", "ascensore", "fattoria", "campagna", "fiume", "lago", "ufficio", "prigione", "piazza", "laboratorio", "mensa", "zoo", "officina", "fabbrica"]
 
 print("\n___SPYFALL___\n")
 n = int(input("number of players: "))
