@@ -9,7 +9,7 @@ k = int(input("number of spies "))
 p = int(input("player id: "))
 s = int(input("insert match seed: "))
 
-S = pow((n+k), s, 2**16)
+S = pow((n+k), s, 2**16 + 1)
 random.seed(S)
 
 spy = []
